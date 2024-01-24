@@ -1,6 +1,12 @@
 * {
-    color: cadetblue;
     text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: lightgoldenrodyellow;
+}
+
+h1 {
+    text-align: center;
+    color: tomato;
 }
 
 img {
@@ -8,3 +14,20 @@ img {
     display: block;
 }
 
+a {
+    color: tomato;
+}
+
+a:hover{
+    color: gray;
+}
+
+.paginas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: tomato;
+}
